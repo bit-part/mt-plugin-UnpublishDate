@@ -1,0 +1,18 @@
+# UnpublishDate
+#
+# Release 1.0.0 (2014-07-10)
+#
+# Copyright (c) bit part LLC - http://bit-part.net/
+name: UnpublishDate
+id: UnpublishDate
+version: 1.0.0
+author_name: '<__trans phrase="bit part LLC">'
+author_link: http://bit-part.net/
+description: '<__trans phrase="Outputs the unpublish date of the current entry in context.">'
+plugin_link: https://github.com/bit-part/mt-plugin-UnpublishDate
+doc_link: https://github.com/bit-part/mt-plugin-UnpublishDate/blob/master/README.md
+l10n_class: UnpublishDate::L10N
+tags:
+    function:
+        EntryUnpublishDate: $UnpublishDate::UnpublishDate::Tags::_hdlr_entryunpublishdate
+        PageUnpublishDate: $UnpublishDate::UnpublishDate::Tags::_hdlr_pageunpublishdate
